@@ -12,8 +12,6 @@ while true; do
 
         time_until_target=$((target_unix_time - current_unix_time))
 
-        echo "Time until target Unix time: $time_until_target seconds"
-
         figlet $time_until_target
 
         sleep 1
